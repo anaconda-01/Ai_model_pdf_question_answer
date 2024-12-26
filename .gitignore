@@ -1,0 +1,27 @@
+# Ignore model files with .llm extension
+.llm/
+
+# Ignore Python virtual environment folders
+venv/
+.env/
+.venv/
+
+# Ignore other typical Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore configuration files
+*.env
+*.config
+.DS_Store
